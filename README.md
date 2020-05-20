@@ -1,4 +1,15 @@
-# Dotfiles
+# Albins' dotfiles
+
+This files includes configuration for vim, zsh, oh-my-zsh, tmux and some vim plugins. Using these files I accomplish a comfortable environment for developing web development apps with react, typescript and javascript. Feel free to customize it however you want. It is obiously opinioated, but I've tried to keep everything fairly light weight.
+
+## Content
+
+- zsh (oh-my-zsh)
+- vim (neovim)
+- tmux
+
+# Result
+<img src="https://preview.redd.it/peiahnptalz41.png?width=3360&format=png&auto=webp&s=9c4e8225440a06f86b424430aa463c9ceb0df2ed" />
 
 Clone repo
 
