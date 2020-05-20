@@ -14,10 +14,10 @@ Plug 'tpope/vim-surround'
 call plug#end()
 
 " Source plugin config files
-source ./vim/coc.vim
-source ./vim/indent-guides.vim
-source ./vim/nerdtree.vim
-source ./vim/lightline.vim
+source ~/.dotfiles/vim/coc.vim
+source ~/.dotfiles/vim/indent-guides.vim
+source ~/.dotfiles/vim/nerdtree.vim
+source ~/.dotfiles/vim/lightline.vim
 
 " Theming
 colorscheme gruvbox
