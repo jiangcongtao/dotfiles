@@ -12,7 +12,7 @@ Install oh-my-zsh
 
 Update ~/.zshrc
 
-    echo source ~/.dotfiles/.zshrc | ~/.zshrc
+    echo source ~/.dotfiles/.zshrc >> ~/.zshrc
 
 ## vim
 
@@ -22,7 +22,7 @@ Install neovim
 
 Update ~/.config/nvim/init.vim
 
-    echo source ~/.dotfiles/.vimrc | ~/.config/nvim/init.vim
+    echo source ~/.dotfiles/.vimrc >> ~/.config/nvim/init.vim
 
 ## tmux
 
@@ -32,5 +32,5 @@ Install tmux
 
 Update ~/.tmux.conf
 
-    echo source ~/.dotfiles/.tmux.conf | ~/.tmux.conf
+    echo source ~/.dotfiles/.tmux.conf >> ~/.tmux.conf
 
