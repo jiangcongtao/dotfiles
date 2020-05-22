@@ -5,10 +5,10 @@
 export ZSH="/Users/albin/.oh-my-zsh"
 
 # Theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="minimal"
 
 # Plugisn
-plugins=(zsh-autosuggestions)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 
 # Aliases
 alias gs="git status"
@@ -41,6 +41,11 @@ alias cl="clear"
 alias ta="tmux a"
 alias td="tmux detach"
 
+function chpwd() {
+    emulate -L zsh
+    ls -a
+}
+
 # oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
@@ -51,5 +56,5 @@ PATH=$PATH:~/environment-remote/bin
 export TERM=xterm-256color
 
 # Fzf ignore node_modules
-export FZF_DEFAULT_COMMAND='fd --type=file --exclude=.gitignore'
+export FZF_DEFAULT_COMMAND='fd --type=file --hidden --exclude=.gitignore'
 

@@ -10,6 +10,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
