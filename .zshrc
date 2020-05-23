@@ -40,6 +40,7 @@ alias gst="git stash"
 alias cl="clear"
 alias ta="tmux a"
 alias td="tmux detach"
+alias gdd="node ~/Documents/Developer/utils/generate-deploy-description/index.js"
 
 function chpwd() {
     emulate -L zsh
