@@ -15,7 +15,7 @@ call plug#end()
 " theming
 set background=dark
 set relativenumber cursorline
-colorscheme base16-default-dark
+colorscheme base16-tomorrow-night
 set termguicolors
 syntax enable
 set t_Co=256
@@ -48,7 +48,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Make line number bg same as editor bg
-hi LineNr  guifg=#505050   guibg=#181818
+hi LineNr  guifg=#505050   guibg=#1d1f21
 
 " React Typescript syntax highlighting
 hi tsxTagName guifg=#E06C75
