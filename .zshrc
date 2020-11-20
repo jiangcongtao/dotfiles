@@ -1,13 +1,10 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
+# Add ZSH variable
 export ZSH="/Users/albin/.oh-my-zsh"
 
 # Theme
 ZSH_THEME="minimal"
 
-# Plugisn
+# Plugins
 plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 
 # Aliases
@@ -21,41 +18,37 @@ alias cgs="clear && git status"
 alias gch="git checkout"
 alias gl="git log"
 alias gd="git diff"
-alias nrd="npm run dev"
 alias cl="clear"
 alias ec="emoji-commit"
 alias y="yarn"
 alias ys="yarn start"
 alias ysd="yarn start:dev"
-alias yf="yarn format"
-alias vim="nvim"
+alias yd="yarn develop"
 alias v="vim"
-alias g="git"
 alias tree="tree -L 1"
-alias yl="yarn lint"
-alias ylf="yarn lint --fix"
-alias gm="git merge"
-alias yb="yarn build"
 alias gst="git stash"
 alias cl="clear"
-alias ta="tmux a"
-alias td="tmux detach"
-alias gdd="node ~/Documents/Developer/utils/generate-deploy-description/index.js"
+alias nf="clear && neofetch"
+alias vim="nvim"
+alias update="~/.bin/update"
+alias w="curl wttr.in"
 
+alias vimconf="nvim ~/.config/nvim/init.vim"
+alias zshconf="nvim ~/.zshrc"
+alias alacrittyconf="nvim ~/.config/alacritty/alacritty.yml"
+
+# Show files when cd
 function chpwd() {
     emulate -L zsh
-    ls -a
+    tree -a
 }
 
-# oh-my-zsh
+# Oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # NVM
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-PATH=$PATH:~/environment-remote/bin
-export TERM=xterm-256color
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Fzf ignore node_modules
-export FZF_DEFAULT_COMMAND='fd --type=file --hidden --exclude=.gitignore'
-
+export TERM=screen-256color
