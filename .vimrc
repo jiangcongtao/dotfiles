@@ -9,6 +9,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'vim-airline/vim-airline'
+Plug 'yggdroot/indentline'
 
 call plug#end()
 
@@ -86,3 +87,8 @@ endif
 
 " Trigger auto imports by hitting enter
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Indentline options
+let g:indentLine_enabled = 0
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = '·'
