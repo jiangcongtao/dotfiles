@@ -41,9 +41,6 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 
-" Remove key delay
-set timeoutlen=1000 ttimeoutlen=0
-
 " ctrlp
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
