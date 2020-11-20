@@ -2,19 +2,18 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'lilydjwg/colorizer'
 Plug 'tpope/vim-commentary'
-Plug 'arcticicestudio/nord-vim'
-Plug 'itchyny/lightline.vim'
-Plug 'blueyed/vim-diminactive'
+Plug 'chriskempson/base16-vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
 " theming
-set background=dark cursorline
-set relativenumber
+set background=dark
+set relativenumber cursorline
+colorscheme base16-default-dark
+set termguicolors
 syntax enable
-colorscheme nord
 set t_Co=256
 
 hi! Normal ctermbg=NONE guibg=NONE 
@@ -43,5 +42,9 @@ nnoremap <C-J> <C-W><C-J>
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
-" Set lightline colorscheme
-let g:lightline = { 'colorscheme': 'nord' }
+" Base16 colorscheme fix
+let base16colorspace=256
+
+" Make line number bg same as editor bg
+hi LineNr  guifg=#505050   guibg=#181818
+
