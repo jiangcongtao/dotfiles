@@ -89,3 +89,10 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 let g:indentLine_enabled = 0
 let g:indentLine_leadingSpaceEnabled = 1
 let g:indentLine_leadingSpaceChar = '·'
+
+" Go to definition
+nmap <silent> gd <Plug>(coc-definition)
+
+" Apply AutoFix to problem on the current line.
+nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader>qf  <Plug>(coc-fix-current)
