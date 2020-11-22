@@ -5,6 +5,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'chriskempson/base16-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline-themes'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
@@ -16,10 +17,12 @@ call plug#end()
 " theming
 set background=dark
 set relativenumber cursorline
-colorscheme base16-tomorrow-night
+colorscheme base16-ocean
 set termguicolors
 syntax enable
 set t_Co=256
+
+let g:airline_theme='base16_ocean'
 
 " Base16 colorscheme fix
 let base16colorspace=256
@@ -46,7 +49,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Make line number bg same as editor bg
-hi LineNr  guifg=#505050   guibg=#1d1f21
+hi LineNr  guifg=#505050   guibg=#2A303C
 
 " React Typescript syntax highlighting
 hi tsxTagName guifg=#E06C75
