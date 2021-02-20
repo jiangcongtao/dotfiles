@@ -1,0 +1,12 @@
+alt_send_esc: false
+font:
+  size: 18
+  normal:
+    family: Dank Mono
+colors:
+  primary:
+    background: '#262626'
+window:
+  padding:
+    x: 10
+    y: 4
