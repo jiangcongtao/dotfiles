@@ -9,13 +9,12 @@ These files includes configuration for vim, zsh, oh-my-zsh, tmux and some vim pl
 - tmux
 
 # Overview
-<img src="https://preview.redd.it/peiahnptalz41.png?width=3360&format=png&auto=webp&s=9c4e8225440a06f86b424430aa463c9ceb0df2ed" />
-
-# Typescript + React
 
 ![CleanShot 2021-02-27 at 20 03 00](https://user-images.githubusercontent.com/19674362/109397501-2bcdc580-7937-11eb-82c9-2b802c4a2f0e.png)
 
 ![CleanShot 2021-02-27 at 20 04 51](https://user-images.githubusercontent.com/19674362/109397507-325c3d00-7937-11eb-89d2-f45abb5ab53a.png)
+
+# Get started
 
 Clone repo
 
