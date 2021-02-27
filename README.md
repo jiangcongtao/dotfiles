@@ -13,7 +13,9 @@ These files includes configuration for vim, zsh, oh-my-zsh, tmux and some vim pl
 
 # Typescript + React
 
-<img src="https://cleanshot-cloud-fra.s3.eu-central-1.amazonaws.com/media/2851/8V2UxYnJwHmieUYxSa72rgA0eY38IXe5UqgHs7Zh.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5MF2VVMNBYBOTT5A%2F20200520%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200520T111756Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=392eb7aa0b1dc0f13ced2ba0eb72050fc417417b7195f3af76c5cc749e0b341d" />
+![CleanShot 2021-02-27 at 20 03 00](https://user-images.githubusercontent.com/19674362/109397501-2bcdc580-7937-11eb-82c9-2b802c4a2f0e.png)
+
+![CleanShot 2021-02-27 at 20 04 51](https://user-images.githubusercontent.com/19674362/109397507-325c3d00-7937-11eb-89d2-f45abb5ab53a.png)
 
 Clone repo
 
