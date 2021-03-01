@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Plugins
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
@@ -10,6 +11,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 
 " Initialize plugin manager
@@ -52,6 +54,9 @@ nmap <leader>l :CocCommand eslint.executeAutofix<CR>
 
 " Make ctrlp ignore all files listed in .gitignore
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+" Fzf configuration
+nnoremap <C-f> :Rg! 
 
 " Use <c-space> to trigger coc completion.
 if has('nvim')
