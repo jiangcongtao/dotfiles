@@ -26,11 +26,13 @@ alias aw="alacritty-work"
 alias gch="git checkout"
 alias gs="git status"
 alias gps="git push"
+alias ys="yarn start"
 alias gpl="git pull"
 alias gd="git diff"
 alias ga="git add ."
 alias gl="git log"
 alias ysd="yarn start:dev"
+alias ec="emoji-commit"
 alias y="yarn"
 
 # List directory files when changing directory
