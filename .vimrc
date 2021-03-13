@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Plugins
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
