@@ -19,7 +19,7 @@ let mapleader = "\<Space>"
 filetype plugin indent on
 set relativenumber
 set softtabstop=2
-set numberwidth=3
+set numberwidth=2
 set shiftwidth=2
 set splitright
 set splitbelow

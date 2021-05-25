@@ -25,13 +25,13 @@ scrolling:
 # Font Customization
 font:
   normal:
-    family: Dank Mono
+    family: Monaco
     style: Regular
   bold:
-    family: Dank Mono
+    family: Monaco
     style: Bold
   italic:
-    family: Dank Mono
+    family: Monaco
     style: Regular Italic
   size: 18.0
   offset:
