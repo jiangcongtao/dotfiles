@@ -2,7 +2,7 @@
 export ZSH="/Users/albin/.oh-my-zsh"
 
 # Theme
-ZSH_THEME="simple"
+ZSH_THEME="robbyrussell"
 
 # Plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
@@ -27,6 +27,7 @@ alias gch="git checkout"
 alias gs="git status"
 alias gps="git push"
 alias ys="yarn start"
+alias yd="yarn dev"
 alias gpl="git pull"
 alias gd="git diff"
 alias ga="git add ."

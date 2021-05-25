@@ -2,16 +2,13 @@
 call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'blueyed/vim-diminactive'
 Plug 'joshdick/onedark.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 
 " Initialize plugin manager
