@@ -50,3 +50,4 @@ colors:
   primary:
     background: '#262626'
 
+alt_send_esc: false
