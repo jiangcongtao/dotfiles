@@ -26,6 +26,7 @@ set splitbelow
 set expandtab
 set tabstop=2
 set nowrap
+set cursorline
 
 " Easier splitting
 nnoremap vs :vs<CR>
@@ -40,6 +41,16 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 
+" Make ctrlp ignore all files listed in .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+" Theming
+syntax enable
+set background=dark
+colorscheme onedark
+
+" COC configuration
+
 " Command for formatting file using Prettier
 command! -nargs=0 Format :CocCommand prettier.formatFile
 
@@ -48,32 +59,6 @@ nmap <leader>. <Plug>(coc-codeaction)
 
 " Autofix all fixable eslint issues
 nmap <leader>l :CocCommand eslint.executeAutofix<CR>
-
-" Make ctrlp ignore all files listed in .gitignore
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
-" Fzf configuration
-nnoremap <C-f> :Rg! 
-
-" Use <c-space> to trigger coc completion.
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
-
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-" Theming
-syntax enable
-set background=dark
-colorscheme onedark
-
-" COC configuration
 " TextEdit might fail if hidden is not set.
 set hidden
 
