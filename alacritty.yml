@@ -1,3 +1,6 @@
+import:
+  - "/Users/albin/.dotfiles/color.yml"
+
 env:
   TERM: xterm-256color
 
@@ -41,10 +44,5 @@ font:
   use_thin_strokes: false
   debug:
     persistent_logging: false
-
-# Colors
-colors:
-  primary:
-    background: '#262626'
 
 alt_send_esc: false
