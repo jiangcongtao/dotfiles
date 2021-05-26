@@ -9,7 +9,6 @@ Plug 'joshdick/onedark.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'mattn/emmet-vim'
 
 " Initialize plugin manager
 call plug#end()
