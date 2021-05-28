@@ -10,9 +10,7 @@ These files includes configuration for vim, zsh, oh-my-zsh, tmux and some vim pl
 
 # Overview
 
-![CleanShot 2021-02-27 at 20 03 00](https://user-images.githubusercontent.com/19674362/109397501-2bcdc580-7937-11eb-82c9-2b802c4a2f0e.png)
-
-![CleanShot 2021-02-27 at 20 04 51](https://user-images.githubusercontent.com/19674362/109397507-325c3d00-7937-11eb-89d2-f45abb5ab53a.png)
+![Vim screenshot](https://res.cloudinary.com/albin-groen/image/upload/v1622202177/5b45ac1f-eb34-4ab9-b605-e14aebad9550_aovtc1.png)
 
 # Get started
 

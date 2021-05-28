@@ -45,3 +45,6 @@ font:
     persistent_logging: false
 
 alt_send_esc: false
+
+live_config_reload: true
+
