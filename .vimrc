@@ -28,6 +28,7 @@ set tabstop=2
 set nowrap
 set cursorline
 set termguicolors
+set cmdheight=1
 
 " Easier splitting
 nnoremap vs :vs<CR>
