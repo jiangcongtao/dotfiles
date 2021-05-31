@@ -22,6 +22,7 @@ set numberwidth=2
 set shiftwidth=2
 set splitright
 set splitbelow
+set colorcolumn=80
 set expandtab
 set tabstop=2
 set nowrap
