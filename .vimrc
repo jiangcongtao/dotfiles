@@ -28,6 +28,11 @@ set nowrap
 set cursorline
 set termguicolors
 set cmdheight=1
+set nohlsearch
+set noswapfile
+set incsearch
+set scrolloff=8
+set nu
 
 " Easier splitting
 nnoremap vs :vs<CR>
