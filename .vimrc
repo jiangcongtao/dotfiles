@@ -59,4 +59,4 @@ set background=dark
 colorscheme onedark
 
 " COC configuration
-so ./coc.vim
+so ~/.dotfiles/coc.vim
