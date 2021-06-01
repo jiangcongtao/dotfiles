@@ -75,4 +75,4 @@ command! -bang -nargs=* Rg
   \   fzf#vim#with_preview(), <bang>0)
 
 " COC configuration
-so ~/.dotfiles/coc.vim
+so ~/.dotfiles/vim/coc.vim

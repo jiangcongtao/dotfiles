@@ -1,55 +1,88 @@
-# Albins' dotfiles
+# dotfiles
 
-These files includes configuration for vim, zsh, oh-my-zsh, tmux and some vim plugins. Using these files I accomplish a comfortable environment for developing web development apps with react, typescript and javascript. Feel free to customize it however you want. It is obiously opinioated, but I've tried to keep everything fairly light weight.
-
-## Content
-
-- zsh (oh-my-zsh)
-- vim (neovim)
-- tmux
-
-# Overview
+Albin Groen's configuration for a nice MacOS terminal environment
 
 ![Vim screenshot](https://res.cloudinary.com/albin-groen/image/upload/v1622202177/5b45ac1f-eb34-4ab9-b605-e14aebad9550_aovtc1.png)
 
-# Get started
+## Installation
 
-Clone repo
+```bash
+git clone git@github.com:albingroen/.dotfiles.git
+```
 
-    git clone git@github.com:albingroen/.dotfiles.git
+### Kitty
 
-## zsh
+#### Install using Homebrew
 
-Install oh-my-zsh
+```bash
+brew install --cask kitty
+```
 
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#### Set up Kitty config
 
-Update ~/.zshrc
+```bash
+echo "include ~/.dotfiles/kitty.conf" > ~/.config/kitty/kitty.conf
+```
 
-    echo source ~/.dotfiles/.zshrc >> ~/.zshrc
+### zsh
 
-## vim
+#### Install oh-my-zsh
 
-Install neovim
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
-    brew install neovim
+#### Set up zsh config
 
-Install vim-plug
+```bash
+echo "source ~/.dotfiles/.zshrc" > ~/.zshrc
+```
 
-    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+### fzf
+
+```bash
+brew install fzf
+```
+
+### Neovim
+
+#### Install using Homebrew
+
+```bash
+brew install --HEAD neovim
+```
+
+#### Install vim-plug
+
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
 
-Update ~/.config/nvim/init.vim
+#### Set up Neovim config
 
-    echo source ~/.dotfiles/.vimrc >> ~/.config/nvim/init.vim
+```bash
+echo "so ~/.dotfiles/vim/init.vim" > ~/.confg/nvim/init.vim
+```
 
-## tmux
+## Install script
 
-Install tmux
+```bash
+git clone git@github.com:albingroen/.dotfiles.git 
+&& brew install --cask kitty 
+&& echo "include ~/.dotfiles/kitty.conf" > ~/.config/kitty/kitty.conf 
+&& sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+&& echo "source ~/.dotfiles/.zshrc" > ~/.zshrc
+&& brew install fzf
+&& brew install --HEAD neovim
+&& sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+&& echo "so ~/.dotfiles/vim/init.vim" > ~/.config/nvim/init.vim
 
-    brew install tmux
+```
 
-Update ~/.tmux.conf
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-    echo source ~/.dotfiles/.tmux.conf >> ~/.tmux.conf
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
