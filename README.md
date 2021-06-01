@@ -2,7 +2,7 @@
 
 Albin Groen's configuration for a nice MacOS terminal environment
 
-![Vim screenshot](https://res.cloudinary.com/albin-groen/image/upload/v1622202177/5b45ac1f-eb34-4ab9-b605-e14aebad9550_aovtc1.png)
+![CleanShot 2021-06-01 at 18 34 46](https://user-images.githubusercontent.com/19674362/120359548-14242580-c308-11eb-88fa-69245021705b.png)
 
 ## Installation
 
