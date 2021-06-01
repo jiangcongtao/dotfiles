@@ -2,7 +2,7 @@
 
 Albin Groen's configuration for a nice MacOS terminal environment
 
-![CleanShot 2021-06-01 at 18 34 46](https://user-images.githubusercontent.com/19674362/120359548-14242580-c308-11eb-88fa-69245021705b.png)
+![CleanShot 2021-06-01 at 18 37 18](https://user-images.githubusercontent.com/19674362/120359830-6a916400-c308-11eb-989f-eb5ecd8db36f.png)
 
 ## Installation
 
