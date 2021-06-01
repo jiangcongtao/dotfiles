@@ -71,3 +71,7 @@ colorscheme onedark
 
 " COC configuration
 so ~/.dotfiles/coc.vim
+
+lua << EOF
+require('telescope').setup{ defaults = { file_ignore_patterns = {"alfred",".git"} } }
+EOF
