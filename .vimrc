@@ -8,10 +8,8 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin manager
 call plug#end()
@@ -57,21 +55,24 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 
-" Telescope config
-nnoremap <C-P> <cmd>Telescope find_files find_command=rg,--ignore,--hidden,--files<cr>
-nnoremap <C-F> <cmd>Telescope live_grep<cr>
-
-" Make ctrlp ignore all files listed in .gitignore
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
 " Theming
 syntax enable
 set background=dark
 colorscheme onedark
 
+" Mapping for fzf
+nnoremap <silent> <c-p> :GFiles<CR>
+nnoremap <silent> <c-f> :Rg<CR>
+
+" Position fzf at the bottom
+let g:fzf_layout = { 'down': '~20%' }
+
+" Make sure fzf shows results in hidden files
+autocmd VimEnter * command! -bang -nargs=? GFiles call fzf#vim#gitfiles(<q-args>, {'options': '--no-preview'}, <bang>0)
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --hidden --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
 " COC configuration
 so ~/.dotfiles/coc.vim
-
-lua << EOF
-require('telescope').setup{ defaults = { file_ignore_patterns = {"alfred",".git"} } }
-EOF
