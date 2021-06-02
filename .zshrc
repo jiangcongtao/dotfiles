@@ -1,5 +1,7 @@
 # Use oh-my-zsh
 export ZSH="/Users/albin/.oh-my-zsh"
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Theme
 ZSH_THEME="robbyrussell"
