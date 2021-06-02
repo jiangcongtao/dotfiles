@@ -55,6 +55,11 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 
+" Easier tab management
+nnoremap tn :tabnew<CR>
+nnoremap tk :tabnext<CR>
+nnoremap tj :tabprev<CR>
+
 " Theming
 syntax enable
 set background=dark
