@@ -68,17 +68,7 @@ echo "so ~/.dotfiles/vim/init.vim" > ~/.confg/nvim/init.vim
 ## Install script
 
 ```bash
-git clone git@github.com:albingroen/.dotfiles.git 
-&& brew install --cask kitty 
-&& echo "include ~/.dotfiles/kitty.conf" > ~/.config/kitty/kitty.conf 
-&& sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
-&& echo "source ~/.dotfiles/.zshrc" > ~/.zshrc
-&& brew install fzf
-&& brew install --HEAD neovim
-&& sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-&& echo "so ~/.dotfiles/vim/init.vim" > ~/.config/nvim/init.vim
-
+chmod setup.sh && ./setup.sh
 ```
 
 ## Contributing
