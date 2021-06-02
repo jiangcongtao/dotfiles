@@ -41,6 +41,7 @@ set termguicolors
 " Explorer configuration
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
+let g:netrw_winsize = 20
 
 " Easier splitting
 nnoremap vs :vs<CR>
@@ -59,6 +60,10 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap tn :tabnew<CR>
 nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
+
+" Open file explorer
+so ~/.dotfiles/vim/toggle-explorer.vim
+noremap <silent> <C-b> :call ToggleNetrw()<CR>
 
 " Theming
 syntax enable
