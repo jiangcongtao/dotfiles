@@ -68,7 +68,7 @@ echo "so ~/.dotfiles/vim/init.vim" > ~/.confg/nvim/init.vim
 ## Install script
 
 ```bash
-chmod setup.sh && ./setup.sh
+chmod +x setup.sh && ./setup.sh
 ```
 
 ## Contributing
