@@ -62,7 +62,7 @@ nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 
 " Open file explorer
-so ~/.dotfiles/vim/toggle-explorer.vim
+so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-b> :call ToggleNetrw()<CR>
 
 " Theming
@@ -85,4 +85,4 @@ command! -bang -nargs=* Rg
   \   fzf#vim#with_preview(), <bang>0)
 
 " COC configuration
-so ~/.dotfiles/vim/coc.vim
+so ~/dotfiles/vim/coc.vim
