@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -28,7 +28,7 @@ set nohlsearch
 set noswapfile
 set nowrap
 set nu
-set numberwidth=2
+set numberwidth=3
 set relativenumber
 set scrolloff=8
 set shiftwidth=2
@@ -61,6 +61,10 @@ nnoremap tn :tabnew<CR>
 nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 
+" Easier split resizing
+nnoremap <leader>+ :vertical resize +10<CR>
+nnoremap <leader>- :vertical resize -10<CR>
+
 " Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
@@ -68,7 +72,10 @@ noremap <silent> <C-n> :call ToggleNetrw()<CR>
 " Theming
 syntax enable
 set background=dark
-colorscheme onedark
+colorscheme gruvbox
+set scl=no
+
+let g:gruvbox_contrast_dark = 'medium'
 
 " Mapping for fzf
 nnoremap <silent> <c-p> :GFiles<CR>
