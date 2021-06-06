@@ -30,7 +30,7 @@ set nowrap
 set nu
 set numberwidth=3
 set relativenumber
-set scrolloff=8
+set scrolloff=3
 set shiftwidth=2
 set softtabstop=2
 set splitbelow
