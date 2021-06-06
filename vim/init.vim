@@ -63,7 +63,7 @@ nnoremap tj :tabprev<CR>
 
 " Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
-noremap <silent> <C-b> :call ToggleNetrw()<CR>
+noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
 " Theming
 syntax enable
