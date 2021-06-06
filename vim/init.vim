@@ -65,6 +65,10 @@ nnoremap tj :tabprev<CR>
 nnoremap <leader>+ :vertical resize +10<CR>
 nnoremap <leader>- :vertical resize -10<CR>
 
+" Easier block moving
+vnoremap J :m '>+1'<CR>gv=gv
+vnoremap K :m '<-2'<CR>gv=gv
+
 " Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
