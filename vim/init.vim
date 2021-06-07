@@ -28,7 +28,7 @@ set nohlsearch
 set noswapfile
 set nowrap
 set nu
-set numberwidth=3
+set numberwidth=4
 set relativenumber
 set scrolloff=3
 set shiftwidth=2
