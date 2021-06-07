@@ -48,7 +48,7 @@ nnoremap vs :vs<CR>
 nnoremap sp :sp<CR>
 
 " Easier closing of buffers
-nnoremap q :q<CR>
+" nnoremap q :q<CR>
 
 " Easier navigation between panes
 nnoremap <C-L> <C-W><C-L>
