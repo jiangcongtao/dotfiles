@@ -1,3 +1,4 @@
+
 " Command for formatting file using Prettier
 command! -nargs=0 Format :CocCommand prettier.formatFile
 
@@ -70,3 +71,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Enable commenting for jx/tsx content
 let g:tcomment#filetype#guess_typescriptreact = 1
+
+" Specify which plugins to install
+let g:coc_global_extensions = ['coc-eslint', 'coc-json', 'coc-pairs', 'coc-prettier', 'coc-tailwindcss', 'coc-tsserver']
