@@ -23,7 +23,7 @@
       },
       "iconPaddingHorizontal" : 8,
       "roundness" : 0,
-      "paddingVertical" : 6,
+      "paddingVertical" : 5,
       "iconSize" : 33
     },
     "search" : {
@@ -38,7 +38,7 @@
       },
       "background" : "#FFFFFF00",
       "roundness" : 0,
-      "paddingVertical" : 7
+      "paddingVertical" : 3
     },
     "window" : {
       "color" : "#FFFFFFFF",
@@ -47,7 +47,7 @@
       "borderPadding" : 0,
       "borderColor" : "#FFFFFFFF",
       "blur" : 10,
-      "roundness" : 11,
+      "roundness" : 9,
       "paddingVertical" : 4
     },
     "credit" : "Albin Groen",
