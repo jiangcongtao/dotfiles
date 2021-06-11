@@ -69,6 +69,9 @@ nnoremap <leader>- :vertical resize -10<CR>
 vnoremap J :m '>+1'<CR>gv=gv
 vnoremap K :m '<-2'<CR>gv=gv
 
+" Easier formatting with Prettier
+nnoremap <leader>f :CocCommand prettier.formatFile<CR>
+
 " Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
@@ -83,6 +86,7 @@ let g:gruvbox_contrast_dark = 'medium'
 
 " Mapping for fzf
 nnoremap <silent> <c-p> :GFiles<CR>
+nnoremap <silent> <c-b> :Buffers<CR>
 nnoremap <silent> <c-f> :Rg<CR>
 
 " Position fzf at the bottom
