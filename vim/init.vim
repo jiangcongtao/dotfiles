@@ -76,14 +76,6 @@ nnoremap <leader>f :CocCommand prettier.formatFile<CR>
 so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
-" Theming
-syntax enable
-set background=dark
-colorscheme gruvbox
-set scl=no
-
-let g:gruvbox_contrast_dark = 'medium'
-
 " Mapping for fzf
 nnoremap <silent> <c-p> :GFiles<CR>
 nnoremap <silent> <c-b> :Buffers<CR>
@@ -101,3 +93,9 @@ command! -bang -nargs=* Rg
 
 " COC configuration
 so ~/dotfiles/vim/coc.vim
+
+" Theming
+syntax enable
+set scl=no
+
+so ~/dotfiles/vim/colors-light.vim
