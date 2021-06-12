@@ -23,9 +23,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 echo "source ~/.dotfiles/.zshrc" > ~/.zshrc
 
 # Configure Kitty
-echo "include ~/.dotfiles/kitty.conf" > ~/.config/kitty/kitty.conf
+echo "include ~/.dotfiles/kitty/kitty.conf" > ~/.config/kitty/kitty.conf
 
 # Configure Neovim
 echo "so ~/.dotfiles/vim/init.vim" > ~/.config/nvim/init.vim
+
+# Configure Tmux
+echo "so ~/.dotfiles/tmux/.tmux.conf" > ~/.tmux.conf
 
 
