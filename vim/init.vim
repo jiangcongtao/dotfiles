@@ -8,6 +8,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'morhetz/gruvbox'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 

@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 9,
+        "colorSelected" : "#FFFFFFC4",
+        "font" : "System",
+        "color" : "#FEFFFE30"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#48006938"
+      },
+      "backgroundSelected" : "#019CDEFF",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FEFFFEE5"
+      },
+      "iconPaddingHorizontal" : 8,
+      "roundness" : 0,
+      "paddingVertical" : 5,
+      "iconSize" : 33
+    },
+    "search" : {
+      "backgroundSelected" : "#016BDEFF",
+      "paddingHorizontal" : 10,
+      "spacing" : 4,
+      "text" : {
+        "size" : 25,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System Light",
+        "color" : "#FEFFFEFF"
+      },
+      "background" : "#173B0000",
+      "roundness" : 0,
+      "paddingVertical" : 3
+    },
+    "window" : {
+      "color" : "#303030FF",
+      "paddingHorizontal" : 0,
+      "width" : 450,
+      "borderPadding" : 0,
+      "borderColor" : "#FFFFFFFF",
+      "blur" : 10,
+      "roundness" : 9,
+      "paddingVertical" : 4
+    },
+    "credit" : "Albin Groen",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#A9A9A9FF",
+      "thickness" : 0
+    },
+    "name" : "Modern macOS Dark"
+  }
+}
