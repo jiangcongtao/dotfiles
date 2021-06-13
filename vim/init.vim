@@ -99,4 +99,4 @@ so ~/dotfiles/vim/coc.vim
 syntax enable
 set scl=no
 
-so ~/dotfiles/vim/colors-light.vim
+so ~/dotfiles/vim/colors-dark.vim
