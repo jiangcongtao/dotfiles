@@ -1,80 +1,69 @@
+"  ____  _             _           
+" |  _ \| |_   _  __ _(_)_ __  ___ 
+" | |_) | | | | |/ _` | | '_ \/ __|
+" |  __/| | |_| | (_| | | | | \__ \
+" |_|   |_|\__,_|\__, |_|_| |_|___/
+"                |___/             
+
 " Start plugin managemer
 call plug#begin('~/.vim/plugged')
 
-" Plugins
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'morhetz/gruvbox'
-Plug 'tomtom/tcomment_vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+so ~/dotfiles/vim/plugins.vim
 
 " Initialize plugin manager
 call plug#end()
 
-" Basic settings
-let mapleader = "\<Space>"
-filetype plugin indent on
-set cmdheight=1
-set colorcolumn=80
-set cursorline
-set expandtab
-set ignorecase
-set incsearch
-set noerrorbells
-set nohlsearch
-set noswapfile
-set nowrap
-set nu
-set numberwidth=4
-set relativenumber
-set scrolloff=3
-set shiftwidth=2
-set softtabstop=2
-set splitbelow
-set splitright
-set tabstop=2
-set termguicolors
+"  ____            _          
+" | __ )  __ _ ___(_) ___ ___ 
+" |  _ \ / _` / __| |/ __/ __|
+" | |_) | (_| \__ \ | (__\__ \
+" |____/ \__,_|___/_|\___|___/
 
-" Explorer configuration
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_winsize = 20
+so ~/dotfiles/vim/basics.vim
 
-" Easier splitting
-nnoremap vs :vs<CR>
-nnoremap sp :sp<CR>
+"  _____            _                     
+" | ____|_  ___ __ | | ___  _ __ ___ _ __ 
+" |  _| \ \/ / '_ \| |/ _ \| '__/ _ \ '__|
+" | |___ >  <| |_) | | (_) | | |  __/ |   
+" |_____/_/\_\ .__/|_|\___/|_|  \___|_|   
+"            |_|                          
 
-" Easier navigation between panes
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-J> <C-W><C-J>
-
-" Easier tab management
-nnoremap tn :tabnew<CR>
-nnoremap tk :tabnext<CR>
-nnoremap tj :tabprev<CR>
-
-" Easier split resizing
-nnoremap <leader>+ :vertical resize +10<CR>
-nnoremap <leader>- :vertical resize -10<CR>
-
-" Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
-noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
-" FZF configuration
+"  __  __                   _                 
+" |  \/  | __ _ _ __  _ __ (_)_ __   __ _ ___ 
+" | |\/| |/ _` | '_ \| '_ \| | '_ \ / _` / __|
+" | |  | | (_| | |_) | |_) | | | | | (_| \__ \
+" |_|  |_|\__,_| .__/| .__/|_|_| |_|\__, |___/
+"              |_|   |_|            |___/     
+
+so ~/dotfiles/vim/mappings.vim
+
+"  _____ __________ 
+" |  ___|__  /  ___|
+" | |_    / /| |_   
+" |  _|  / /_|  _|  
+" |_|   /____|_|    
+                  
+
 so ~/dotfiles/vim/fzf.vim
 
-" COC configuration
+"   ____ ___   ____ 
+"  / ___/ _ \ / ___|
+" | |  | | | | |    
+" | |__| |_| | |___ 
+"  \____\___/ \____|
+
 so ~/dotfiles/vim/coc.vim
 
-" Theming
+"  _____ _                    _             
+" |_   _| |__   ___ _ __ ___ (_)_ __   __ _ 
+"   | | | '_ \ / _ \ '_ ` _ \| | '_ \ / _` |
+"   | | | | | |  __/ | | | | | | | | | (_| |
+"   |_| |_| |_|\___|_| |_| |_|_|_| |_|\__, |
+"                                     |___/ 
+
+" Enable code syntax highlighting
 syntax enable
-set scl=no
 
 so ~/dotfiles/vim/colors-dark.vim
