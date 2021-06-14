@@ -48,9 +48,6 @@ let g:netrw_winsize = 20
 nnoremap vs :vs<CR>
 nnoremap sp :sp<CR>
 
-" Easier closing of buffers
-" nnoremap q :q<CR>
-
 " Easier navigation between panes
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
@@ -66,31 +63,12 @@ nnoremap tj :tabprev<CR>
 nnoremap <leader>+ :vertical resize +10<CR>
 nnoremap <leader>- :vertical resize -10<CR>
 
-" Easier block moving
-vnoremap J :m '>+1'<CR>gv=gv
-vnoremap K :m '<-2'<CR>gv=gv
-
-" Easier formatting with Prettier
-nnoremap <leader>f :CocCommand prettier.formatFile<CR>
-
 " Open file explorer
 so ~/dotfiles/vim/toggle-explorer.vim
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
-" Mapping for fzf
-nnoremap <silent> <c-p> :GFiles<CR>
-nnoremap <silent> <c-b> :Buffers<CR>
-nnoremap <silent> <c-f> :Rg<CR>
-
-" Position fzf at the bottom
-let g:fzf_layout = { 'down': '~20%' }
-
-" Make sure fzf shows results in hidden files
-autocmd VimEnter * command! -bang -nargs=? GFiles call fzf#vim#gitfiles(<q-args>, {'options': '--no-preview'}, <bang>0)
-command! -bang -nargs=* Rg
-  \ call fzf#vim#grep(
-  \   'rg --hidden --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
-  \   fzf#vim#with_preview(), <bang>0)
+" FZF configuration
+so ~/dotfiles/vim/fzf.vim
 
 " COC configuration
 so ~/dotfiles/vim/coc.vim

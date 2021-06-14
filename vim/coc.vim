@@ -74,3 +74,6 @@ let g:tcomment#filetype#guess_typescriptreact = 1
 
 " Specify which plugins to install
 let g:coc_global_extensions = ['coc-eslint', 'coc-json', 'coc-pairs', 'coc-prettier', 'coc-tailwindcss', 'coc-tsserver', 'coc-emmet']
+
+" Easier formatting with Prettier
+nnoremap <leader>f :CocCommand prettier.formatFile<CR>
