@@ -9,7 +9,7 @@
 
 Albin Groen's configuration for a nice MacOS terminal environment
 
-![CleanShot 2021-06-01 at 18 37 18](https://user-images.githubusercontent.com/19674362/120359830-6a916400-c308-11eb-989f-eb5ecd8db36f.png)
+![terminal](https://res.cloudinary.com/albin-groen/image/upload/v1623751422/lfotyzyv0v9gqmg435pk.png)
 
 ## Installation
 
