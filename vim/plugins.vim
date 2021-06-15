@@ -22,6 +22,3 @@ Plug 'tpope/vim-fugitive'
 " File and file content searching
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
-" Minimap plugin
-Plug 'wfxr/minimap.vim'
