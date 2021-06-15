@@ -56,6 +56,15 @@ so ~/dotfiles/vim/fzf.vim
 
 so ~/dotfiles/vim/coc.vim
 
+"  __  __ _       _                       
+" |  \/  (_)_ __ (_)_ __ ___   __ _ _ __  
+" | |\/| | | '_ \| | '_ ` _ \ / _` | '_ \ 
+" | |  | | | | | | | | | | | | (_| | |_) |
+" |_|  |_|_|_| |_|_|_| |_| |_|\__,_| .__/ 
+"                                  |_|    
+
+so ~/dotfiles/vim/minimap.vim
+
 "  _____ _                    _             
 " |_   _| |__   ___ _ __ ___ (_)_ __   __ _ 
 "   | | | '_ \ / _ \ '_ ` _ \| | '_ \ / _` |
@@ -66,4 +75,4 @@ so ~/dotfiles/vim/coc.vim
 " Enable code syntax highlighting
 syntax enable
 
-so ~/dotfiles/vim/colors-light.vim
+so ~/dotfiles/vim/colors-dark.vim
