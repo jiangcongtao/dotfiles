@@ -1,52 +1,57 @@
-# Use oh-my-zsh
-export ZSH="/Users/albin/.oh-my-zsh"
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
+# __     __         _       _     _           
+# \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+#  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+#   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+#    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
 
-# Theme
-ZSH_THEME="robbyrussell"
+source ~/dotfiles/zsh/variables
 
-# Plugins
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+#  _____ _                         
+# |_   _| |__   ___ _ __ ___   ___ 
+#   | | | '_ \ / _ \ '_ ` _ \ / _ \
+#   | | | | | |  __/ | | | | |  __/
+#   |_| |_| |_|\___|_| |_| |_|\___|
+                                 
+source ~/dotfiles/zsh/theme
 
-# Source oh-my-zsh
+#  ____  _             _           
+# |  _ \| |_   _  __ _(_)_ __  ___ 
+# | |_) | | | | |/ _` | | '_ \/ __|
+# |  __/| | |_| | (_| | | | | \__ \
+# |_|   |_|\__,_|\__, |_|_| |_|___/
+#                |___/             
+
+source ~/dotfiles/zsh/plugins
+
+#        _                                        _     
+#   ___ | |__        _ __ ___  _   _      _______| |__  
+#  / _ \| '_ \ _____| '_ ` _ \| | | |____|_  / __| '_ \ 
+# | (_) | | | |_____| | | | | | |_| |_____/ /\__ \ | | |
+#  \___/|_| |_|     |_| |_| |_|\__, |    /___|___/_| |_|
+#                              |___/                    
+
 source $ZSH/oh-my-zsh.sh
 
-# Theming fix
-export TERM=xterm-256color
+#     _    _ _                     
+#    / \  | (_) __ _ ___  ___  ___ 
+#   / _ \ | | |/ _` / __|/ _ \/ __|
+#  / ___ \| | | (_| \__ \  __/\__ \
+# /_/   \_\_|_|\__,_|___/\___||___/
+                                 
+source ~/dotfiles/zsh/aliases
 
-# Use nvim as default system editor
-export EDITOR=nvim
+#  _____                 _   _                 
+# |  ___|   _ _ __   ___| |_(_) ___  _ __  ___ 
+# | |_ | | | | '_ \ / __| __| |/ _ \| '_ \/ __|
+# |  _|| |_| | | | | (__| |_| | (_) | | | \__ \
+# |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
 
-# Aliases
-alias vim="nvim"
-alias alacritty-work="node ~/scripts/alacritty-work/script.js"
-alias alacritty-record="node ~/scripts/alacritty-record/script.js"
-alias cgs="clear && git status"
-alias df="cd $HOME/dotfiles"
-alias ar="alacritty-record"
-alias aw="alacritty-work"
-alias gch="git checkout"
-alias gs="git status"
-alias gps="git push"
-alias ys="yarn start"
-alias yd="yarn dev"
-alias gpl="git pull"
-alias gd="git diff"
-alias ga="git add ."
-alias gl="git log"
-alias ysd="yarn start:dev"
-alias ec="emoji-commit"
-alias y="yarn"
+source ~/dotfiles/zsh/functions
 
-# List directory files when changing directory
-function chpwd() {
-  emulate -L zsh
-  tree -L 1
-}
-
-# Load NVM
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-if [ "$TMUX" = "" ]; then tmux a; fi
+#  _____ __  __ _   ___  __
+# |_   _|  \/  | | | \ \/ /
+#   | | | |\/| | | | |\  / 
+#   | | | |  | | |_| |/  \ 
+#   |_| |_|  |_|\___//_/\_\
+                         
+source ~/dotfiles/zsh/tmux
