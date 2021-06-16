@@ -66,4 +66,4 @@ so ~/dotfiles/vim/coc.vim
 " Enable code syntax highlighting
 syntax enable
 
-so ~/dotfiles/vim/colors-light.vim
+so ~/dotfiles/vim/colors-dark.vim
