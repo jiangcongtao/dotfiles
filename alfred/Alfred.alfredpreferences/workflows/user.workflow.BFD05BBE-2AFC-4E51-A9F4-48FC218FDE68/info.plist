@@ -10,7 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2D340973-251D-4AAF-857A-6C0FA2BD6776</string>
+				<string>4A7F0082-BA69-4B7F-90D6-A0474EE5697D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -43,7 +43,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>2D340973-251D-4AAF-857A-6C0FA2BD6776</string>
+			<string>4A7F0082-BA69-4B7F-90D6-A0474EE5697D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -83,10 +83,10 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>2D340973-251D-4AAF-857A-6C0FA2BD6776</key>
+		<key>4A7F0082-BA69-4B7F-90D6-A0474EE5697D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>270</integer>
 			<key>ypos</key>
 			<integer>70</integer>
 		</dict>

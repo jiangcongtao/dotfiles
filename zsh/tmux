@@ -1,1 +1,1 @@
-if [ "$TMUX" = "" ]; then tmux a; fi
+# if [ "$TMUX" = "" ]; then tmux a; fi
