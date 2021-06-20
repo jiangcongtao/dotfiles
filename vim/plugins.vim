@@ -22,3 +22,10 @@ Plug 'tpope/vim-fugitive'
 " File and file content searching
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+" Status and tabline theming
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 0
