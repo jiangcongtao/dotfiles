@@ -56,15 +56,6 @@ so ~/dotfiles/vim/fzf.vim
 
 so ~/dotfiles/vim/coc.vim
 
-"     _    _      _ _            
-"    / \  (_)_ __| (_)_ __   ___ 
-"   / _ \ | | '__| | | '_ \ / _ \
-"  / ___ \| | |  | | | | | |  __/
-" /_/   \_\_|_|  |_|_|_| |_|\___|
-"                                
-
-so ~/dotfiles/vim/airline.vim
-
 "  _____ _                    _             
 " |_   _| |__   ___ _ __ ___ (_)_ __   __ _ 
 "   | | | '_ \ / _ \ '_ ` _ \| | '_ \ / _` |
@@ -75,4 +66,4 @@ so ~/dotfiles/vim/airline.vim
 " Enable code syntax highlighting
 syntax enable
 
-so ~/dotfiles/vim/colors-dark.vim
+so ~/dotfiles/vim/colors-light.vim
