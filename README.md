@@ -72,12 +72,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 echo "so ~/.dotfiles/vim/init.vim" > ~/.confg/nvim/init.vim
 ```
 
-## Install script
-
-```bash
-chmod +x setup.sh && ./setup.sh
-```
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
