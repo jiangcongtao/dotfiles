@@ -6,7 +6,7 @@
 "                |___/             
 
 " Start plugin managemer
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 so ~/dotfiles/vim/plugins.vim
 
