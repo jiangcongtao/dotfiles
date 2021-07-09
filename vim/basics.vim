@@ -46,12 +46,6 @@ set noerrorbells
 " Indentation uses 2 spaces
 set shiftwidth=2
 
-" Automatic indentation
-set autoindent
-
-" Smart indentation
-set smartindent
-
 " Line numbers take up more space
 set numberwidth=4
 
