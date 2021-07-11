@@ -33,3 +33,6 @@ nnoremap <leader>- :vertical resize -10<CR>
 
 " Open explorer using "ctrl+n"
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
+
+" Open
+nnoremap <silent> <C-s> :%s/
