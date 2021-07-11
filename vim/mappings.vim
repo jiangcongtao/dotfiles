@@ -35,4 +35,4 @@ nnoremap <leader>- :vertical resize -10<CR>
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
 " Open
-nnoremap <silent> <C-s> :%s/
+nnoremap <C-s> :%s/
