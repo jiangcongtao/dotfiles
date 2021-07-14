@@ -6,3 +6,5 @@ colorscheme gruvbox
 
 " Set the gruvbox contrast option
 let g:gruvbox_contrast_dark = 'medium'
+
+so ~/dotfiles/vim/statusline-dark.vim
