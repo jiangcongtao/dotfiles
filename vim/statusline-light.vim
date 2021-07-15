@@ -14,7 +14,6 @@ set statusline+=\
 set statusline+=>
 set statusline+=>
 set statusline+=\ 
-set statusline+=%F
 set statusline+=%=
 set statusline+=%3*
 set statusline+=\ 
