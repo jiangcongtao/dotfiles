@@ -66,3 +66,6 @@ set signcolumn=yes
 
 " Don't show current mode in statusline
 set noshowmode
+
+" Always show tabline
+set showtabline=2
