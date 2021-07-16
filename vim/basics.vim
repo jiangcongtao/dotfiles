@@ -63,3 +63,6 @@ set relativenumber
 
 " Enable left column for errors, warnings & information
 set signcolumn=yes
+
+" Don't show current mode in statusline
+set noshowmode
