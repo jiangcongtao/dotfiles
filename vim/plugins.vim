@@ -16,9 +16,6 @@ Plug 'tomtom/tcomment_vim'
 " Add, change, delete surrounding characters
 Plug 'tpope/vim-surround'
 
-" Use git version control inside of Vim
-Plug 'tpope/vim-fugitive'
-
 " File and file content searching
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
