@@ -25,12 +25,6 @@ nnoremap tk :tabnext<CR>
 " Move one tab right using "tj"
 nnoremap tj :tabprev<CR>
 
-" Make split wider using "space+plus"
-nnoremap <leader>+ :vertical resize +10<CR>
-
-" Make split narrower using "space+plus"
-nnoremap <leader>- :vertical resize -10<CR>
-
 " Open explorer using "ctrl+n"
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
