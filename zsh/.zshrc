@@ -47,11 +47,3 @@ source ~/dotfiles/zsh/aliases
 # |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
 
 source ~/dotfiles/zsh/functions
-
-#  _____ __  __ _   ___  __
-# |_   _|  \/  | | | \ \/ /
-#   | | | |\/| | | | |\  / 
-#   | | | |  | | |_| |/  \ 
-#   |_| |_|  |_|\___//_/\_\
-                         
-source ~/dotfiles/zsh/tmux
