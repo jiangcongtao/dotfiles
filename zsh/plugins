@@ -1,1 +1,1 @@
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
