@@ -8,7 +8,7 @@
 " Start plugin managemer
 call plug#begin('~/.config/nvim/plugged')
 
-so ~/dotfiles/vim/plugins.vim
+so ~/Developer/github/albingroen/dotfiles/vim/plugins.vim
 
 " Initialize plugin manager
 call plug#end()
@@ -19,7 +19,7 @@ call plug#end()
 " | |_) | (_| \__ \ | (__\__ \
 " |____/ \__,_|___/_|\___|___/
 
-so ~/dotfiles/vim/basics.vim
+so ~/Developer/github/albingroen/dotfiles/vim/basics.vim
 
 "  _____            _                     
 " | ____|_  ___ __ | | ___  _ __ ___ _ __ 
@@ -28,7 +28,7 @@ so ~/dotfiles/vim/basics.vim
 " |_____/_/\_\ .__/|_|\___/|_|  \___|_|   
 "            |_|                          
 
-so ~/dotfiles/vim/toggle-explorer.vim
+so ~/Developer/github/albingroen/dotfiles/vim/toggle-explorer.vim
 
 "  __  __                   _                 
 " |  \/  | __ _ _ __  _ __ (_)_ __   __ _ ___ 
@@ -37,7 +37,7 @@ so ~/dotfiles/vim/toggle-explorer.vim
 " |_|  |_|\__,_| .__/| .__/|_|_| |_|\__, |___/
 "              |_|   |_|            |___/     
 
-so ~/dotfiles/vim/mappings.vim
+so ~/Developer/github/albingroen/dotfiles/vim/mappings.vim
 
 "  _____ __________ 
 " |  ___|__  /  ___|
@@ -46,7 +46,7 @@ so ~/dotfiles/vim/mappings.vim
 " |_|   /____|_|    
                   
 
-so ~/dotfiles/vim/fzf.vim
+so ~/Developer/github/albingroen/dotfiles/vim/fzf.vim
 
 "   ____ ___   ____ 
 "  / ___/ _ \ / ___|
@@ -54,7 +54,7 @@ so ~/dotfiles/vim/fzf.vim
 " | |__| |_| | |___ 
 "  \____\___/ \____|
 
-so ~/dotfiles/vim/coc.vim
+so ~/Developer/github/albingroen/dotfiles/vim/coc.vim
 
 "  _____ _                    _             
 " |_   _| |__   ___ _ __ ___ (_)_ __   __ _ 
@@ -66,4 +66,4 @@ so ~/dotfiles/vim/coc.vim
 " Enable code syntax highlighting
 syntax enable
 
-so ~/dotfiles/vim/colors-dark.vim
+so ~/Developer/github/albingroen/dotfiles/vim/colors-dark.vim

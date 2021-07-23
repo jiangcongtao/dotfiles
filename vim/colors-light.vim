@@ -8,7 +8,7 @@ colorscheme gruvbox
 let g:gruvbox_contrast_light = 'medium'
 
 " Import status line scheme
-so ~/dotfiles/vim/statusline-light.vim
+so ~/Developer/github/albingroen/dotfiles/vim/statusline-light.vim
 
 " Tab styling
 hi TabLineSel ctermfg=Black ctermbg=White guifg=White guibg=#a3987a
