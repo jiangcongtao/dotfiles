@@ -7,8 +7,8 @@ let g:netrw_banner = 0
 " Use nested tree style explorer
 let g:netrw_liststyle = 3
 
-" Explorer takes up 20% of screen
-let g:netrw_winsize = 20
+" Explorer takes up 25% of screen
+let g:netrw_winsize = 25
 
 function! ToggleNetrw()
     if g:NetrwIsOpen

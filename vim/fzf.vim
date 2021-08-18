@@ -4,7 +4,7 @@ nnoremap <silent> <c-b> :Buffers<CR>
 nnoremap <silent> <c-f> :Rg<CR>
 
 " Position fzf at the bottom
-let g:fzf_layout = { 'down': '~20%' }
+let g:fzf_layout = { 'down': '~25%' }
 
 " Make sure fzf shows results in hidden files
 autocmd VimEnter * command! -bang -nargs=? GFiles call fzf#vim#gitfiles(<q-args>, {'options': '--no-preview'}, <bang>0)
