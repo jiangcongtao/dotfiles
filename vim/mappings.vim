@@ -25,6 +25,9 @@ nnoremap tk :tabnext<CR>
 " Move one tab right using "tj"
 nnoremap tj :tabprev<CR>
 
+" Only show current tab "to"
+nnoremap to :tabo<CR>
+
 " Open explorer using "ctrl+n"
 noremap <silent> <C-n> :call ToggleNetrw()<CR>
 
