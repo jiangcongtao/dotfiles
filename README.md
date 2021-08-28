@@ -9,7 +9,7 @@
 
 Albin Groen's configuration for a nice MacOS terminal environment
 
-![Uploading CleanShot 2021-08-28 at 08.49.51@2x.png…]()
+<img width="1726" alt="CleanShot 2021-08-28 at 08 51 00@2x" src="https://user-images.githubusercontent.com/19674362/131209338-c3cd7408-c02b-4102-a8bf-86e43832e16c.png">
 
 ## Installation
 
