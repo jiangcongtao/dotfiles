@@ -22,3 +22,7 @@ Plug 'junegunn/fzf.vim'
 
 " Prisma syntax highlighting
 Plug 'pantharshit00/vim-prisma'
+
+" Svelte plugin
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
