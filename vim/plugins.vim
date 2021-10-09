@@ -7,8 +7,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 " Syntax highlighting & linting for React.js & Typescript code
 Plug 'HerringtonDarkholme/yats.vim'
 
-" Tokyo Night colorscheme
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+" GitHub theme
+Plug 'projekt0n/github-nvim-theme'
 
 " Commenting code through shortcuts
 Plug 'tomtom/tcomment_vim'
