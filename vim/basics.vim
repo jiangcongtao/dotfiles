@@ -56,7 +56,7 @@ set softtabstop=2
 set termguicolors
 
 " Enables 24-bit RGB color
-set colorcolumn=80
+" set colorcolumn=80
 
 " Line numbers are relative from the current position
 set relativenumber
