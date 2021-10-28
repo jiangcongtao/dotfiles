@@ -4,7 +4,7 @@
 #   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
 #    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
 
-source ~/dotfiles/zsh/variables
+source ~/Developer/github/albingroen/dotfiles/zsh/variables
 
 #  _____ _                         
 # |_   _| |__   ___ _ __ ___   ___ 
@@ -12,7 +12,7 @@ source ~/dotfiles/zsh/variables
 #   | | | | | |  __/ | | | | |  __/
 #   |_| |_| |_|\___|_| |_| |_|\___|
                                  
-source ~/dotfiles/zsh/theme
+source ~/Developer/github/albingroen/dotfiles/zsh/theme
 
 #  ____  _             _           
 # |  _ \| |_   _  __ _(_)_ __  ___ 
@@ -21,7 +21,7 @@ source ~/dotfiles/zsh/theme
 # |_|   |_|\__,_|\__, |_|_| |_|___/
 #                |___/             
 
-source ~/dotfiles/zsh/plugins
+source ~/Developer/github/albingroen/dotfiles/zsh/plugins
 
 #        _                                        _     
 #   ___ | |__        _ __ ___  _   _      _______| |__  
@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 #  / ___ \| | | (_| \__ \  __/\__ \
 # /_/   \_\_|_|\__,_|___/\___||___/
                                  
-source ~/dotfiles/zsh/aliases
+source ~/Developer/github/albingroen/dotfiles/zsh/aliases
 
 #  _____                 _   _                 
 # |  ___|   _ _ __   ___| |_(_) ___  _ __  ___ 
@@ -46,4 +46,4 @@ source ~/dotfiles/zsh/aliases
 # |  _|| |_| | | | | (__| |_| | (_) | | | \__ \
 # |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
 
-source ~/dotfiles/zsh/functions
+source ~/Developer/github/albingroen/dotfiles/zsh/functions
